@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link, HashRouter} from "react-router-dom";
 import './App.css'
 import Homepage from "./pages/Homepage.jsx";
 import Abaout_me from "./pages/abaout_me.jsx";
@@ -13,7 +13,7 @@ function App() {
 
     return (
         <>
-            <Router id={"Router"}>
+            <HashRouter id={"Router"}>
                 <div style={{padding: "20px", fontFamily: "Arial, sans-serif", vh: 100, vw: 100 }} >
                     <h1 id={"title"}>{langjson[language]["1"]}</h1>
                     <div id={"dropdownlang"}>
@@ -22,7 +22,7 @@ function App() {
                             <option value={"Englisch"}>English</option>
                         </select>
                     </div>
-                    <nav style={{marginBottom: "20px"}}>
+                    <nav style={{marginBottom: "20px"}} >
                         <Link to="/" style={{marginRight: "10px"}}>Home</Link>
                         <Link to="/aboutme" style={{marginRight: "10px"}}>about me</Link>
                         <Link to="/projects" style={{marginRight: "10px"}}>projects</Link>
@@ -38,7 +38,7 @@ function App() {
                         <Route path="/contact" element={<Contact/>}/>
                     </Routes>
                 </div>
-            </Router>
+            </HashRouter>
         </>
     )
 }
