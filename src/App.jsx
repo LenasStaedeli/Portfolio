@@ -9,13 +9,15 @@ import languages from "./languages/languages.json"
 
 function App() {
     const [language, setLanguage] = useState("Deutsch")
-    const langjson = languages
+    let langjson = languages
+    const location = "app"
+    console.log(langjson, language, location )
 
     return (
         <>
             <HashRouter id={"Router"}>
-                <div style={{padding: "20px", fontFamily: "Arial, sans-serif", vh: 100, vw: 100 }} >
-                    <h1 id={"title"}>{langjson[language]["1"]}</h1>
+                <div style={{padding: "20px", fontFamily: "Arial, sans-serif", height: "100vh", width: "100vw" }} >
+                    <h1 id={"title"}>{langjson[language][location]["1"]}</h1>
                     <div id={"dropdownlang"}>
                         <select onChange={event => setLanguage(event.target.value)}>
                             <option value={"Deutsch"}>Deutsch</option>
@@ -23,19 +25,19 @@ function App() {
                         </select>
                     </div>
                     <nav style={{marginBottom: "20px"}} >
-                        <Link to="/" style={{marginRight: "10px"}}>Home</Link>
-                        <Link to="/aboutme" style={{marginRight: "10px"}}>about me</Link>
-                        <Link to="/projects" style={{marginRight: "10px"}}>projects</Link>
-                        <Link to="/contact">contact</Link>
+                        <Link to="/" style={{marginRight: "10px"}}>{langjson[language][location]["2"]}</Link>
+                        <Link to="/aboutme" style={{marginRight: "10px"}}>{langjson[language][location]["3"]}</Link>
+                        <Link to="/projects" style={{marginRight: "10px"}}>{langjson[language][location]["4"]}</Link>
+                        <Link to="/contact">{langjson[language][location]["5"]}</Link>
                     </nav>
 
                     <hr/>
 
                     <Routes>
-                        <Route path="/" element={<Homepage/>}/>
-                        <Route path="/aboutme" element={<Abaout_me/>}/>
-                        <Route path="/projects" element={<Projects/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/" element={<Homepage langjson={langjson} language={language} setLanguage={setLanguage}/>}/>
+                        <Route path="/aboutme" element={<Abaout_me langjson={langjson} language={language} setLanguage={setLanguage}/>}/>
+                        <Route path="/projects" element={<Projects langjson={langjson} language={language} setLanguage={setLanguage}/>}/>
+                        <Route path="/contact" element={<Contact langjson={langjson} language={language} setLanguage={setLanguage}/>}/>
                     </Routes>
                 </div>
             </HashRouter>

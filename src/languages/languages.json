@@ -1,8 +1,63 @@
 {
   "Deutsch": {
-    "1": "Mein Portfolio"
+    "app": {
+      "1": "Mein Portfolio",
+      "2": "Start",
+      "3": "Über mich",
+      "4": "Projekte",
+      "5": "Kontakt"
+    },
+    "aboutme": {
+
+    },
+    "projects": {
+      "1": "Projekte",
+      "2": "Fertige bzw. fast fertige Projekte",
+      "3": "Ein spiel welches wie Geoguessr aber für das Game Phasmophobia funktioniert.",
+      "4": "Ein einfaches TicTacToe spiel für zwei Spieler.",
+      "5": "Mit diesem Programm können während eines 1v1-Dartspiels die Punkte eingegeben und automatisch gezählt werden.",
+      "6": "Unfertige Projekte",
+      "7": "Wenn man dieses projekt zweimal öffnet, verbinden die Mittelpunkte der beiden Seiten sich mit einer Linie.",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": "",
+      "16": "",
+      "17": "",
+      "18": "",
+      "19": "",
+      "20": ""
+    },
+    "contact": {
+
+    }
   },
   "Englisch": {
-    "1": "My portfolio"
+    "app": {
+      "1": "My portfolio",
+      "2": "Home",
+      "3": "about me",
+      "4": "Projects",
+      "5": "Contact"
+    },
+    "aboutme": {
+
+    },
+    "projects": {
+      "1": "Projects",
+      "2": "Completed or nearly completed projects",
+      "3": "A game that works like Geoguesser but for the game Phasmophobia.",
+      "4": "A simple Tic-Tac-Toe game for two players.",
+      "5": "This program allows you to enter scores and have them tallied automatically during a one-on-one darts match.",
+      "6": "Unfinished projects",
+      "7": "If you open this project twice, the centers of the two sides are connected by a line."
+    },
+    "contact": {
+
+    }
   }
 }

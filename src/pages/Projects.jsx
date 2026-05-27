@@ -1,12 +1,15 @@
 import {href} from "react-router-dom";
 
-export default function Projects(){
+
+export default function Projects({langjson, language}){
+    const location = "projects"
+    console.log(langjson, language, location )
         return (
             <div>
-                <h1>Projekte</h1>
+                <h1>{langjson[language][location]["1"]}</h1>
                 <section>
                     <header>
-                        <h2>Fertige bzw. fast fertige Projekte</h2>
+                        <h2>{langjson[language][location]["2"]}</h2>
                     </header>
 
                     <div className={"row"}>
@@ -18,8 +21,7 @@ export default function Projects(){
                                     style={{width: "100%", borderRadius: "5px"}}
                                 />
                                 <h3 style={{padding: "4px"}}>Phasmoguessr</h3>
-                                <p style={{padding: "4px"}}>Ein spiel welches wie Geoguessr aber für das Game
-                                    Phasmophobia funktioniert.</p>
+                                <p style={{padding: "4px"}}>{langjson[language][location]["3"]}</p>
                                 <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
                                     <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
                                         <button
@@ -75,7 +77,7 @@ export default function Projects(){
                                     style={{width: "100%", borderRadius: "5px"}}
                                 />
                                 <h3 style={{padding: "4px"}}>TicTacToe</h3>
-                                <p style={{padding: "4px"}}>Ein einfaches TicTacToe spiel für zwei Spieler.</p>
+                                <p style={{padding: "4px"}}>{langjson[language][location]["4"]}</p>
                                 <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
                                     <a href={"https://github.com/LenasStaedeli/tictactoe"}>
                                         <button
@@ -131,8 +133,7 @@ export default function Projects(){
                                     style={{width: "100%", borderRadius: "5px"}}
                                 />
                                 <h3 style={{padding: "4px"}}>Dartcounter</h3>
-                                <p style={{padding: "4px"}}>Mit diesem Programm können während eines 1v1-Dartspiels die
-                                    Punkte eingegeben und automatisch gezählt werden.</p>
+                                <p style={{padding: "4px"}}>{langjson[language][location]["5"]}</p>
                                 <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
                                     <a href={"https://github.com/LenasStaedeli/Dartcounter-with-react"}>
                                         <button
@@ -183,7 +184,7 @@ export default function Projects(){
                     </div>
                 </section>
                 <hr/>
-                <h2>Unfertige Projekte</h2>
+                <h2>{langjson[language][location]["6"]}</h2>
                 <section>
                     <div>
                         <aside className={"col-md-4 col-12"}>
@@ -194,8 +195,7 @@ export default function Projects(){
                                     style={{width: "100%", borderRadius: "5px"}}
                                 />
                                 <h3 style={{padding: "4px"}}>Connecting-Lines</h3>
-                                <p style={{padding: "4px"}}>Wenn man dieses projekt zweimal öffnet, verbinden die
-                                    Mittelpunkte der beiden Seiten sich mit einer Linie.</p>
+                                <p style={{padding: "4px"}}>{langjson[language][location]["7"]}</p>
                                 <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
                                     <a href={"https://github.com/LenasStaedeli/connectinglines"}>
                                         <button
