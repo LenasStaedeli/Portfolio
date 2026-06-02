@@ -14,7 +14,7 @@ export default function Projects({langjson, language}){
 
                     <div className={"row"}>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2">
+                            <div className="border border-black rounded-2 mb-2">
                                 <img
                                     src={"Phasmo.png"}
                                     alt="Bild des Phasmoguessr projekts"
@@ -70,7 +70,7 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2">
+                            <div className="border border-black rounded-2 mb-2">
                                 <img
                                     src={"TicTacToe.png"}
                                     alt="Bild des TicTacToe projekts"
@@ -126,7 +126,7 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2">
+                            <div className="border border-black rounded-2 mb-2">
                                 <img
                                     src={"Dartscounter.png"}
                                     alt="Bild des Dartcounter projekts"
@@ -186,9 +186,9 @@ export default function Projects({langjson, language}){
                 <hr/>
                 <h2>{langjson[language][location]["6"]}</h2>
                 <section>
-                    <div>
+                    <div className={"row"}>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2">
+                            <div className="border border-black rounded-2 mb-2">
                                 <img
                                     src={"Connectinglines.png"}
                                     alt="Bild des Connecting-Lines projekts"
