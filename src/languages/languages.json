@@ -29,7 +29,18 @@
       "6": "Unfertige Projekte",
       "7": "Wenn man dieses Projekt zweimal öffnet, verbinden sich die Mittelpunkte der beiden Seiten mit einer Linie."
     },
-    "contact": {}
+    "contact": {
+      "1": "Kontakt",
+      "2": "Schön, dass du den Weg auf meine Kontaktseite gefunden hast. Egal ob du Fragen zu meinen",
+      "3": "Projekte",
+      "4": "hast, Feedback geben möchtest oder einfach mit mir in Kontakt treten willst, freue ich mich immer über jede Nachricht.",
+      "5": "Falls du mehr über mich erfahren möchtest, findest du auf der",
+      "6": "Über mich",
+      "7": "Seite weitere Informationen zu meiner Ausbildung, meinen Interessen und meinen Erfahrungen.",
+      "8": "Kontaktdaten",
+      "9": "Du kannst mich jederzeit über eine der folgenden Möglichkeiten erreichen:",
+      "10": "Ich versuche Anfragen so schnell wie möglich zu beantworten und freue mich auf den Austausch."
+    }
   },
   "Englisch": {
     "app": {
@@ -61,6 +72,17 @@
       "6": "Unfinished projects",
       "7": "If you open this project twice, the centers of the two sides are connected by a line."
     },
-    "contact": {}
+    "contact": {
+      "1": "Contact",
+      "2": "I'm glad you found your way to my contact page. Whether you have questions about my",
+      "3": "projects",
+      "4": "or would like to provide feedback or simply get in touch with me, I always appreciate hearing from you.",
+      "5": "If you’d like to learn more about me, you’ll find",
+      "6": "About Me",
+      "7": "page with more information about my education, my interests, and my experience.",
+      "8": "Contact Information",
+      "9": "You can reach me at any time using one of the following methods:",
+      "10": "I try to respond to inquiries as quickly as possible and look forward to hearing from you."
+    }
   }
 }
