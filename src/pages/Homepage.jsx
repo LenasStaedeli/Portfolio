@@ -1,37 +1,35 @@
 import { Link } from "react-router-dom";
 
-export default function Homepage() {
+export default function Homepage({langjson, language}) {
+    const location = "Homepage"
     return (
         <div>
 
             <div className="bg-white rounded-4 p-4 shadow border mb-4">
                 <h1 className="mb-3 fw-bold">
-                    Willkommen!
+                    {langjson[language][location]["1"]}
                 </h1>
 
                 <p className="mb-3" style={{ lineHeight: "1.6" }}>
-                    Hallo, ich bin <b>Lenas Städeli</b> und absolviere derzeit
-                    eine Ausbildung zum Informatiker in Winterthur. Mehr über meine Persönlichkeit
-                    findest du <Link to="/aboutme">hier</Link>.
+                    {langjson[language][location]["2"]} <b>Lenas Städeli</b> {langjson[language][location]["3"]} <Link to="/aboutme">{langjson[language][location]["4"]}</Link>.
                 </p>
                 <p className="mb-0" style={{ lineHeight: "1.6" }}>
-                    Auf dieser Webseite präsentiere ich meine Projekte,
-                    Kenntnisse, Ausbildung und persönlichen Arbeiten.
+                    {langjson[language][location]["5"]}
                 </p>
             </div>
             <div className="bg-white rounded-4 p-4 shadow border">
                 <h1 className="mb-3 fw-bold">
-                    Kontakt
+                    {langjson[language][location]["6"]}
                 </h1>
                 <p className="mb-3" style={{ lineHeight: "1.6" }}>
-                    Gibt es noch Fragen?
+                    {langjson[language][location]["10"]}
                 </p>
                 <p className="mb-3" style={{ lineHeight: "1.6" }}>
-                    Oder vielleicht Kontaktinteresse?
+                    {langjson[language][location]["7"]}
                 </p>
                 <p className="mb-0" style={{ lineHeight: "1.6" }}>
-                    Dann melde dich gerne! <br />
-                    <Link to="/contact">Hier</Link> findest du alle meine Kontaktdaten.
+                    {langjson[language][location]["8"]} <br />
+                    <Link to="/contact">{langjson[language][location]["4"]}</Link> {langjson[language][location]["9"]}
                 </p>
             </div>
         </div>

@@ -7,57 +7,60 @@
       "4": "Projekte",
       "5": "Kontakt"
     },
-    "aboutme": {
-
+    "Homepage": {
+      "1": "Willkommen",
+      "2": "Hallo, ich bin",
+      "3": "und absolviere derzeit eine Ausbildung zum Informatiker in Winterthur. Mehr über meine Persönlichkeit findest du",
+      "4": "Hier",
+      "5": "Auf dieser Webseite präsentiere ich meine Projekte, Kenntnisse, Ausbildung und persönlichen Arbeiten.",
+      "6": "Kontakt",
+      "7": "Oder vielleicht Kontaktinteresse?",
+      "8": "Dann melde dich gerne!",
+      "9": "Dort findest du alle meine Kontaktdaten.",
+      "10": "Gibt es noch Fragen?"
     },
+    "aboutme": {},
     "projects": {
       "1": "Projekte",
       "2": "Fertige bzw. fast fertige Projekte",
-      "3": "Ein spiel welches wie Geoguessr aber für das Game Phasmophobia funktioniert.",
-      "4": "Ein einfaches TicTacToe spiel für zwei Spieler.",
+      "3": "Ein Spiel, welches wie Geoguessr, aber für das Game Phasmophobia funktioniert.",
+      "4": "Ein einfaches Tic-Tac-Toe-Spiel für zwei Spieler.",
       "5": "Mit diesem Programm können während eines 1v1-Dartspiels die Punkte eingegeben und automatisch gezählt werden.",
       "6": "Unfertige Projekte",
-      "7": "Wenn man dieses projekt zweimal öffnet, verbinden die Mittelpunkte der beiden Seiten sich mit einer Linie.",
-      "8": "",
-      "9": "",
-      "10": "",
-      "11": "",
-      "12": "",
-      "13": "",
-      "14": "",
-      "15": "",
-      "16": "",
-      "17": "",
-      "18": "",
-      "19": "",
-      "20": ""
+      "7": "Wenn man dieses Projekt zweimal öffnet, verbinden sich die Mittelpunkte der beiden Seiten mit einer Linie."
     },
-    "contact": {
-
-    }
+    "contact": {}
   },
   "Englisch": {
     "app": {
       "1": "My portfolio",
       "2": "Home",
-      "3": "about me",
+      "3": "About me",
       "4": "Projects",
       "5": "Contact"
     },
-    "aboutme": {
-
+    "Homepage": {
+      "1": "Welcome",
+      "2": "Hello, I am",
+      "3": "and I'm currently pursuing an apprenticeship as a computer scientist in Winterthur. You can find out more about me",
+      "4": "Here",
+      "5": "On this website, I showcase my projects, skills, education, and personal work.",
+      "6": "Contact",
+      "7": "Or maybe you're interested in getting in touch?",
+      "8": "Then feel free to get in touch!",
+      "9": "You'll find all my contact information there.",
+      "10": "Are there any more questions?"
     },
+    "aboutme": {},
     "projects": {
       "1": "Projects",
       "2": "Completed or nearly completed projects",
-      "3": "A game that works like Geoguesser but for the game Phasmophobia.",
+      "3": "A game that works like GeoGuessr but for the game Phasmophobia.",
       "4": "A simple Tic-Tac-Toe game for two players.",
       "5": "This program allows you to enter scores and have them tallied automatically during a one-on-one darts match.",
       "6": "Unfinished projects",
       "7": "If you open this project twice, the centers of the two sides are connected by a line."
     },
-    "contact": {
-
-    }
+    "contact": {}
   }
 }
