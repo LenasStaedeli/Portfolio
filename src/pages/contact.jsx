@@ -4,7 +4,7 @@ export default function Contact({ langjson, language }) {
     const location = "contact"
     return (
         <div>
-            <div className="bg-white rounded-4 p-4 shadow border mb-4">
+            <div className="bg-white rounded-4 p-4 shadow border mb-4 info-divs">
                 <h1 className="mb-3 fw-bold">
                     {langjson[language][location]["1"]}
                 </h1>
@@ -19,7 +19,7 @@ export default function Contact({ langjson, language }) {
                 </p>
             </div>
 
-            <div className="bg-white rounded-4 p-4 shadow border">
+            <div className="bg-white rounded-4 p-4 shadow border info-divs">
                 <h2 className="mb-3 fw-bold">
                     {langjson[language][location]["8"]}
                 </h2>

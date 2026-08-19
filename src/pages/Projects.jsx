@@ -13,8 +13,8 @@ export default function Projects({langjson, language}){
                     </header>
 
                     <div className={"row"}>
-                        <aside className={"col-md-4 col-12"}>
-                            <div className="bg-white rounded-4 shadow border">
+                        <aside className={"col-md-4 col-12 d-flex"}>
+                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Phasmo.png"}
                                     alt="Bild des Phasmoguessr projekts"
@@ -22,9 +22,12 @@ export default function Projects({langjson, language}){
                                 />
                                 <h3 style={{padding: "4px"}}>Phasmoguessr</h3>
                                 <p style={{padding: "4px"}}>{langjson[language][location]["3"]}</p>
-                                <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
+                                <div
+                                    className={"mt-auto"}
+                                    style={{display: "flex", gap: "10px", marginTop: "10px"}}>
                                     <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -46,6 +49,7 @@ export default function Projects({langjson, language}){
                                     </a>
                                     <a href={"https://lenasstaedeli.github.io/phasmoguesser/"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -69,8 +73,8 @@ export default function Projects({langjson, language}){
                                 </div>
                             </div>
                         </aside>
-                        <aside className={"col-md-4 col-12"}>
-                            <div className="bg-white rounded-4 shadow border">
+                        <aside className={"col-md-4 col-12 d-flex"}>
+                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"TicTacToe.png"}
                                     alt="Bild des TicTacToe projekts"
@@ -78,9 +82,12 @@ export default function Projects({langjson, language}){
                                 />
                                 <h3 style={{padding: "4px"}}>TicTacToe</h3>
                                 <p style={{padding: "4px"}}>{langjson[language][location]["4"]}</p>
-                                <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/tictactoe"}>
+                                <div
+                                    className={"mt-auto"}
+                                    style={{display: "flex", gap: "10px", marginTop: "10px"}}>
+                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -102,6 +109,7 @@ export default function Projects({langjson, language}){
                                     </a>
                                     <a href={"https://lenasstaedeli.github.io/tictactoe/"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -125,8 +133,8 @@ export default function Projects({langjson, language}){
                                 </div>
                             </div>
                         </aside>
-                        <aside className={"col-md-4 col-12"}>
-                            <div className="bg-white rounded-4 shadow border">
+                        <aside className={"col-md-4 col-12 d-flex"}>
+                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Dartscounter.png"}
                                     alt="Bild des Dartcounter projekts"
@@ -134,9 +142,12 @@ export default function Projects({langjson, language}){
                                 />
                                 <h3 style={{padding: "4px"}}>Dartcounter</h3>
                                 <p style={{padding: "4px"}}>{langjson[language][location]["5"]}</p>
-                                <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/Dartcounter-with-react"}>
+                                <div
+                                    className={"mt-auto"}
+                                    style={{display: "flex", gap: "10px", marginTop: "10px"}}>
+                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -158,6 +169,7 @@ export default function Projects({langjson, language}){
                                     </a>
                                     <a href={"https://lenasstaedeli.github.io/Dartcounter-with-react/"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -187,8 +199,8 @@ export default function Projects({langjson, language}){
                 <h2>{langjson[language][location]["6"]}</h2>
                 <section>
                     <div className={"row"}>
-                        <aside className={"col-md-4 col-12"}>
-                            <div className="bg-white rounded-4 shadow border">
+                        <aside className={"col-md-4 col-12 d-flex mb-4"}>
+                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Connectinglines.png"}
                                     alt="Bild des Connecting-Lines projekts"
@@ -196,9 +208,12 @@ export default function Projects({langjson, language}){
                                 />
                                 <h3 style={{padding: "4px"}}>Connecting-Lines</h3>
                                 <p style={{padding: "4px"}}>{langjson[language][location]["7"]}</p>
-                                <div style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/connectinglines"}>
+                                <div
+                                    className={"mt-auto"}
+                                    style={{display: "flex", gap: "10px", marginTop: "10px"}}>
+                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -220,6 +235,7 @@ export default function Projects({langjson, language}){
                                     </a>
                                     <a href={"https://lenasstaedeli.github.io/connectinglines/"}>
                                         <button
+                                            className={"project-button"}
                                             style={{
                                                 width: "40px",
                                                 height: "40px",
@@ -249,4 +265,4 @@ export default function Projects({langjson, language}){
 
             </div>
         )
-    }
+}

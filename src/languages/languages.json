@@ -19,7 +19,25 @@
       "9": "Dort findest du alle meine Kontaktdaten.",
       "10": "Gibt es noch Fragen?"
     },
-    "aboutme": {},
+    "aboutme": {
+      "1": "Who am I?",
+      "2": "I am an ambitious 18-year-old aspiring IT specialist currently attending IMS in Winterthur. I enjoy working on new projects and am always motivated to learn new technologies and further develop my skills.",
+      "3": "Besides programming, I am also interested in gaming, sports, and darts. I am an open-minded and outgoing person who approaches new challenges with a lot of curiosity and willingness to learn.",
+      "4": "What do I work with?",
+      "5": "At school, we have already worked with several technologies. Here is a small overview:",
+      "6": "Frontend: ",
+      "7": "React, JavaScript, HTML, CSS, Bootstrap, (Svelte)",
+      "8": "Backend: ",
+      "9": "Java, Node.js",
+      "10": "Database: ",
+      "11": "MySQL, MongoDB",
+      "12": "CI/CD: ",
+      "13": "GitHub",
+      "14": "Hosting: ",
+      "15": "AWS",
+      "16": "Containerization: ",
+      "17": "Docker, Kubernetes"
+    },
     "projects": {
       "1": "Projekte",
       "2": "Fertige bzw. fast fertige Projekte",
@@ -40,6 +58,10 @@
       "8": "Kontaktdaten",
       "9": "Du kannst mich jederzeit über eine der folgenden Möglichkeiten erreichen:",
       "10": "Ich versuche Anfragen so schnell wie möglich zu beantworten und freue mich auf den Austausch."
+    },
+    "footer": {
+      "1": "Hier",
+      "2": "finden Sie den Quellcode"
     }
   },
   "Englisch": {
@@ -62,7 +84,25 @@
       "9": "You'll find all my contact information there.",
       "10": "Are there any more questions?"
     },
-    "aboutme": {},
+    "aboutme": {
+      "1": "Who am I?",
+      "2": "I am an ambitious 18-year-old aspiring IT specialist currently attending IMS in Winterthur. I enjoy working on new projects and am always motivated to learn new technologies and further develop my skills.",
+      "3": "Besides programming, I am also interested in gaming, sports, and darts. I am an open-minded and outgoing person who approaches new challenges with a lot of curiosity and willingness to learn.",
+      "4": "What do I work with?",
+      "5": "At school, we have already worked with several technologies. Here is a small overview:",
+      "6": "Frontend: ",
+      "7": "React, JavaScript, HTML, CSS, Bootstrap, (Svelte)",
+      "8": "Backend: ",
+      "9": "Java, Node.js",
+      "10": "Database: ",
+      "11": "MySQL, MongoDB",
+      "12": "CI/CD: ",
+      "13": "GitHub",
+      "14": "Hosting: ",
+      "15": "AWS",
+      "16": "Containerization: ",
+      "17": "Docker, Kubernetes"
+    },
     "projects": {
       "1": "Projects",
       "2": "Completed or nearly completed projects",
@@ -83,6 +123,10 @@
       "8": "Contact Information",
       "9": "You can reach me at any time using one of the following methods:",
       "10": "I try to respond to inquiries as quickly as possible and look forward to hearing from you."
+    },
+    "footer": {
+      "1": "View",
+      "2": "the source"
     }
   }
 }

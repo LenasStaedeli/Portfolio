@@ -5,7 +5,7 @@ export default function Homepage({langjson, language}) {
     return (
         <div>
 
-            <div className="bg-white rounded-4 p-4 shadow border mb-4">
+            <div className="bg-white rounded-4 p-4 shadow border mb-4 info-divs">
                 <h1 className="mb-3 fw-bold">
                     {langjson[language][location]["1"]}
                 </h1>
@@ -17,7 +17,7 @@ export default function Homepage({langjson, language}) {
                     {langjson[language][location]["5"]}
                 </p>
             </div>
-            <div className="bg-white rounded-4 p-4 shadow border">
+            <div className="bg-white rounded-4 p-4 shadow border info-divs">
                 <h1 className="mb-3 fw-bold">
                     {langjson[language][location]["6"]}
                 </h1>
