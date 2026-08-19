@@ -6,3 +6,6 @@
     display: flex;
     justify-content: right;
 }
+body {
+    overflow-x: hidden;
+}

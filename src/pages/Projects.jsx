@@ -14,7 +14,7 @@ export default function Projects({langjson, language}){
 
                     <div className={"row"}>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2 mb-2">
+                            <div className="bg-white rounded-4 shadow border">
                                 <img
                                     src={"Phasmo.png"}
                                     alt="Bild des Phasmoguessr projekts"
@@ -70,7 +70,7 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2 mb-2">
+                            <div className="bg-white rounded-4 shadow border">
                                 <img
                                     src={"TicTacToe.png"}
                                     alt="Bild des TicTacToe projekts"
@@ -126,7 +126,7 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2 mb-2">
+                            <div className="bg-white rounded-4 shadow border">
                                 <img
                                     src={"Dartscounter.png"}
                                     alt="Bild des Dartcounter projekts"
@@ -188,7 +188,7 @@ export default function Projects({langjson, language}){
                 <section>
                     <div className={"row"}>
                         <aside className={"col-md-4 col-12"}>
-                            <div className="border border-black rounded-2 mb-2">
+                            <div className="bg-white rounded-4 shadow border">
                                 <img
                                     src={"Connectinglines.png"}
                                     alt="Bild des Connecting-Lines projekts"
@@ -228,17 +228,17 @@ export default function Projects({langjson, language}){
                                                 alignItems: "center",
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
-                                            border: "1px solid black",
-                                            borderRadius: "6px",
-                                            cursor: "pointer"
-                                        }}
-                                    >
-                                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" width="16">
-                                            <path
-                                                d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25ZM14.5 6h-13v7.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm-6-3.5v2h6V2.75a.25.25 0 0 0-.25-.25ZM5 2.5v2h2v-2Zm-3.25 0a.25.25 0 0 0-.25.25V4.5h2v-2Z"/>
-                                        </svg>
+                                                border: "1px solid black",
+                                                borderRadius: "6px",
+                                                cursor: "pointer"
+                                            }}
+                                        >
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" width="16">
+                                                <path
+                                                    d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25ZM14.5 6h-13v7.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm-6-3.5v2h6V2.75a.25.25 0 0 0-.25-.25ZM5 2.5v2h2v-2Zm-3.25 0a.25.25 0 0 0-.25.25V4.5h2v-2Z"/>
+                                            </svg>
 
-                                    </button>
+                                        </button>
                                     </a>
                                 </div>
 
