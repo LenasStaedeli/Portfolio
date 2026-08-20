@@ -85,7 +85,7 @@ export default function Projects({langjson, language}){
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
+                                    <a href={"https://github.com/LenasStaedeli/tictactoe"}>
                                         <button
                                             className={"project-button"}
                                             style={{
@@ -145,7 +145,7 @@ export default function Projects({langjson, language}){
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
+                                    <a href={"https://github.com/LenasStaedeli/Dartcounter-with-react"}>
                                         <button
                                             className={"project-button"}
                                             style={{
@@ -211,7 +211,7 @@ export default function Projects({langjson, language}){
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
-                                    <a href={"https://github.com/LenasStaedeli/phasmoguesser"}>
+                                    <a href={"https://github.com/LenasStaedeli/connectinglines"}>
                                         <button
                                             className={"project-button"}
                                             style={{
