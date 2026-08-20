@@ -6,22 +6,22 @@ export default function Projects({langjson, language}){
     console.log(langjson, language, location )
         return (
             <div>
-                <h1>{langjson[language][location]["1"]}</h1>
+                <h1 className={"text-white"}>{langjson[language][location]["1"]}</h1>
                 <section>
                     <header>
-                        <h2>{langjson[language][location]["2"]}</h2>
+                        <h2 className={"text-white"}>{langjson[language][location]["2"]}</h2>
                     </header>
 
                     <div className={"row"}>
                         <aside className={"col-md-4 col-12 d-flex"}>
-                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
+                            <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Phasmo.png"}
                                     alt="Bild des Phasmoguessr projekts"
-                                    style={{width: "100%", borderRadius: "5px"}}
+                                    style={{width: "100%", borderRadius: "7px"}}
                                 />
-                                <h3 style={{padding: "4px"}}>Phasmoguessr</h3>
-                                <p style={{padding: "4px"}}>{langjson[language][location]["3"]}</p>
+                                <h3 style={{padding: "4px"}} className={"text-white"}>Phasmoguessr</h3>
+                                <p style={{padding: "4px"}} className={"text-white"}>{langjson[language][location]["3"]}</p>
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
@@ -36,7 +36,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -59,7 +59,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -74,14 +74,14 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12 d-flex"}>
-                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
+                            <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"TicTacToe.png"}
                                     alt="Bild des TicTacToe projekts"
-                                    style={{width: "100%", borderRadius: "5px"}}
+                                    style={{width: "100%", borderRadius: "7px"}}
                                 />
-                                <h3 style={{padding: "4px"}}>TicTacToe</h3>
-                                <p style={{padding: "4px"}}>{langjson[language][location]["4"]}</p>
+                                <h3 style={{padding: "4px"}} className={"text-white"}>TicTacToe</h3>
+                                <p style={{padding: "4px"}} className={"text-white"}>{langjson[language][location]["4"]}</p>
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
@@ -96,7 +96,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -119,7 +119,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -134,14 +134,14 @@ export default function Projects({langjson, language}){
                             </div>
                         </aside>
                         <aside className={"col-md-4 col-12 d-flex"}>
-                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
+                            <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Dartscounter.png"}
                                     alt="Bild des Dartcounter projekts"
-                                    style={{width: "100%", borderRadius: "5px"}}
+                                    style={{width: "100%", borderRadius: "7px"}}
                                 />
-                                <h3 style={{padding: "4px"}}>Dartcounter</h3>
-                                <p style={{padding: "4px"}}>{langjson[language][location]["5"]}</p>
+                                <h3 style={{padding: "4px"}} className={"text-white"}>Dartcounter</h3>
+                                <p style={{padding: "4px"}} className={"text-white"}>{langjson[language][location]["5"]}</p>
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
@@ -156,7 +156,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -179,7 +179,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -196,18 +196,18 @@ export default function Projects({langjson, language}){
                     </div>
                 </section>
                 <hr/>
-                <h2>{langjson[language][location]["6"]}</h2>
+                <h2 className={"text-white"}>{langjson[language][location]["6"]}</h2>
                 <section>
                     <div className={"row"}>
                         <aside className={"col-md-4 col-12 d-flex mb-4"}>
-                            <div className="bg-white rounded-4 shadow border h-100 w-100 d-flex flex-column info-divs">
+                            <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Connectinglines.png"}
                                     alt="Bild des Connecting-Lines projekts"
-                                    style={{width: "100%", borderRadius: "5px"}}
+                                    style={{width: "100%", borderRadius: "7px"}}
                                 />
-                                <h3 style={{padding: "4px"}}>Connecting-Lines</h3>
-                                <p style={{padding: "4px"}}>{langjson[language][location]["7"]}</p>
+                                <h3 style={{padding: "4px"}} className={"text-white"}>Connecting-Lines</h3>
+                                <p style={{padding: "4px"}} className={"text-white"}>{langjson[language][location]["7"]}</p>
                                 <div
                                     className={"mt-auto"}
                                     style={{display: "flex", gap: "10px", marginTop: "10px"}}>
@@ -222,7 +222,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >
@@ -245,7 +245,7 @@ export default function Projects({langjson, language}){
                                                 justifyContent: "center",
                                                 backgroundColor: "grey",
                                                 border: "1px solid black",
-                                                borderRadius: "6px",
+                                                borderRadius: "7px",
                                                 cursor: "pointer"
                                             }}
                                         >

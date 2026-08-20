@@ -8,6 +8,8 @@
 }
 body {
     overflow-x: hidden;
+    background-color: #1E1033;
+
 }
 .project-button {
     transition: transform 0.2s ease;
@@ -22,4 +24,46 @@ body {
 
 .info-divs:hover {
     transform: scale(1.03);
+}
+
+.color-divs {
+    border: 1px solid #FF4696;
+}
+
+.background-color{
+    background-color: #1E1033;
+}
+.font-color{
+    color: #FF4696;
+}
+.link-elements{
+    transition: transform 0.2s ease;
+    display: inline-block;
+    color: #FF4696;
+    text-decoration: none;
+}
+.link-elements:hover{
+    transform: scale(1.05);
+    color: #FF4696;
+    text-decoration: underline;
+}
+.link-elements.active{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.navbar-links{
+    transition: transform 0.2s ease;
+    display: inline-block;
+    color: #FF4696;
+    text-decoration: none;
+}
+.navbar-links:hover{
+    transform: scale(1.1);
+    color: #FF4696;
+    text-decoration: underline;
+}
+.navbar-links.active{
+    text-decoration: underline;
+    transform: scale(1.1);
 }
