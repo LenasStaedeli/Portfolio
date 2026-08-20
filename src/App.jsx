@@ -20,7 +20,7 @@ function App() {
                 <div style={{padding: "20px", fontFamily: "Arial, sans-serif", flex: "1 0 auto", width: "100%"}}>
                     <h1 id={"title"} className={"text-white"}>{langjson[language][location]["1"]}</h1>
                     <div id={"dropdownlang"} >
-                        <select className={"color-divs background-color font-color"} onChange={event => setLanguage(event.target.value)}>
+                        <select className={"color-divs background-color font-color rounded-3"} onChange={event => setLanguage(event.target.value)}>
                             <option value={"Deutsch"}>Deutsch</option>
                             <option value={"Englisch"}>English</option>
                         </select>
