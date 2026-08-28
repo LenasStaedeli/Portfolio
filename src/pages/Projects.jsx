@@ -13,7 +13,7 @@ export default function Projects({langjson, language}){
                     </header>
 
                     <div className={"row"}>
-                        <aside className={"col-md-4 col-12 d-flex"}>
+                        <aside className={"col-md-4 col-12 d-flex mb-2"}>
                             <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Phasmo.png"}
@@ -73,7 +73,7 @@ export default function Projects({langjson, language}){
                                 </div>
                             </div>
                         </aside>
-                        <aside className={"col-md-4 col-12 d-flex"}>
+                        <aside className={"col-md-4 col-12 d-flex mb-2"}>
                             <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"TicTacToe.png"}
@@ -133,7 +133,7 @@ export default function Projects({langjson, language}){
                                 </div>
                             </div>
                         </aside>
-                        <aside className={"col-md-4 col-12 d-flex"}>
+                        <aside className={"col-md-4 col-12 d-flex mb-2"}>
                             <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Dartscounter.png"}
@@ -199,7 +199,7 @@ export default function Projects({langjson, language}){
                 <h2 className={"text-white"}>{langjson[language][location]["6"]}</h2>
                 <section>
                     <div className={"row"}>
-                        <aside className={"col-md-4 col-12 d-flex mb-4"}>
+                        <aside className={"col-md-4 col-12 d-flex mb-4 "}>
                             <div className="background-color rounded-3 shadow color-divs h-100 w-100 d-flex flex-column info-divs">
                                 <img
                                     src={"Connectinglines.png"}
